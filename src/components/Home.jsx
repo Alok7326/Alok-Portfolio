@@ -128,11 +128,12 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
+
+          <div className="flex justify-center md:justify-start md:ml-48 md:mt-20 mt-8 order-1">
             <img
               src={pic}
-              className="rounded-xl md:w-[450px] md:h-[450px] border-4 border-transparent bg-gradient-to-r from-blue-500 to-purple-500 p-1 shadow-2xl transition-transform duration-300 hover:scale-110"
-              alt=""
+              className="rounded-xl w-80 h-80 md:w-96 md:h-96 lg:w-[450px] lg:h-[450px] border-4 border-gray-300 bg-gradient-to-r from-blue-500 to-purple-500 p-1 shadow-xl transition-transform duration-300 hover:scale-105"
+              alt="Portfolio"
             />
           </div>
         </div>
