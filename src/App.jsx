@@ -3,12 +3,11 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import PortFolio from "./components/PortFolio";
-import Experiance from "./components/Experiance";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import { Toaster } from "react-hot-toast";
-import MyProjects from "./components/MyProjects";
 import ResumeDownload from "./components/ResumeDownload"; // Ensure correct path
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
