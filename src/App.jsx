@@ -18,7 +18,7 @@ function App() {
         <ResumeDownload />
         <About />
         <PortFolio />
-        <Contact />
+        <ContactForm />
         <Footer />
       </div>
       <Toaster />

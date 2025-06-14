@@ -23,9 +23,8 @@ function ContactForm() {
     setResponseMsg("");
 
     try {
-      // Replace with your backend API endpoint
       const res = await axios.post(
-        "https://add-backend-link-here/api/contact",
+        "https://portfolio-backend-y41y.onrender.com/alok/Portfolio",
         formData
       );
       setResponseMsg("Message sent successfully!");
